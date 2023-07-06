@@ -32,14 +32,18 @@ function Header() {
                 
               </li>
             </ul>
+            <Link className="navbar-brand" to="/product">
             <button type="button" className="btn btn-outline-dark">
             <FontAwesomeIcon icon={["fas", "gift"]} className="shop-text"/>
             <span className="ms-3 badge rounded-pill bg-dark">Trueque</span>
             </button>
+            </Link>
+            <Link className="navbar-brand" to="/subasta">
             <button type="button" className="btn btn-outline-dark">
             <FontAwesomeIcon icon={["fas", "gavel"]} className="shop-text"/>
             <span className="ms-3 badge rounded-pill bg-dark">Subastas</span>
             </button>
+            </Link>
             <button type="button" className="btn btn-outline-dark">
               <FontAwesomeIcon icon={["fas", "shopping-cart"]} className="shop-text"/>
               <span className="ms-3 badge rounded-pill bg-dark">0</span>
