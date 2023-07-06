@@ -9,7 +9,7 @@ import Link from "@mui/material/Link";
 import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
-import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
+import myImage from "../images/WhatsApp Image 2023-07-02 at 13.04.41.jpeg";
 import Typography from "@mui/material/Typography";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
@@ -22,9 +22,9 @@ function Copyright(props) {
       {...props}
     >
       {"Copyright © "}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
-      </Link>{" "}
+     
+        IntercambioYa
+      
       {new Date().getFullYear()}
       {"."}
     </Typography>
@@ -56,7 +56,7 @@ export default function Logueo() {
           md={7}
           sx={{
             backgroundImage:
-              "url(https://source.unsplash.com/random?wallpapers)",
+              "url(https://assets-global.website-files.com/5f4f67c5950db17954dd4f52/5f5b76fbda8b97087e5107bb_hacer-trueque.jpeg)",
             backgroundRepeat: "no-repeat",
             backgroundColor: (t) =>
               t.palette.mode === "light"
@@ -77,7 +77,7 @@ export default function Logueo() {
             }}
           >
             <Avatar sx={{ m: 1, bgcolor: "secondary.main" }}>
-              <LockOutlinedIcon />
+            <img src={myImage} alt="My Awesome Logo" className="ms-1" style={{ width: "45px", height:"56px" }} />
             </Avatar>
             <Typography component="h1" variant="h5">
               Sign in
@@ -93,7 +93,7 @@ export default function Logueo() {
                 required
                 fullWidth
                 id="email"
-                label="Email Address"
+                label="Email"
                 name="email"
                 autoComplete="email"
                 autoFocus
