@@ -19,7 +19,7 @@ function Landing() {
         </p>
         <div className="d-flex justify-content-center">
           <Link to="/product" className="btn btn-primary" replace>
-            Ver productos
+            Intercambios disponibles
           </Link>
         </div>
       </div>
