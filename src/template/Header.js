@@ -76,20 +76,48 @@ function Header() {
           </div>
 
           <div className="d-inline-block d-lg-none">
+            <Link className="navbar-brand" to="/product">
             <button type="button" className="btn btn-outline-dark">
             <FontAwesomeIcon icon={["fas", "gift"]} className="shop-text"/>
             <span className="ms-3 badge rounded-pill bg-dark">Trueque</span>
             </button>
+            </Link>
+            <Link className="navbar-brand" to="/subasta">
             <button type="button" className="btn btn-outline-dark">
             <FontAwesomeIcon icon={["fas", "gavel"]} className="shop-text"/>
             <span className="ms-3 badge rounded-pill bg-dark">Subastas</span>
             </button>
+            </Link>
             <button type="button" className="btn btn-outline-dark">
               <FontAwesomeIcon icon={["fas", "shopping-cart"]} className="shop-text"/>
               <span className="ms-3 badge rounded-pill bg-dark">0</span>
             </button>
-            <button className="navbar-toggler p-0 border-0 ms-3" type="button" onClick={toggleDrawer}>
-              <span className="navbar-toggler-icon"></span>
+            <button type="button" className="btn btn-outline-dark">
+            <ul className="navbar-nav mb-2 mb-lg-0">
+              <li className="nav-item dropdown">
+                <a
+                  href="!#"
+                  className="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  id="userDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <FontAwesomeIcon icon={["fas", "user-alt"]} className="bg-dark2" />
+                </a>
+                <ul
+                  className="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="userDropdown"
+                >
+                  <li>
+                    <Link to="/" className="dropdown-item" onClick={changeNav}>
+                      Log out
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+            </ul>
             </button>
           </div>
         </div>
