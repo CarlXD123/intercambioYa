@@ -153,14 +153,6 @@ function Subasta() {
                     <FontAwesomeIcon icon={["fas", "search"]} />
                   </button>
                 </div>
-                <button
-                  className="btn btn-outline-dark ms-2 d-none d-lg-inline"
-                  onClick={changeViewType}
-                >
-                  <FontAwesomeIcon
-                    icon={["fas", viewType.grid ? "th-list" : "th-large"]}
-                  />
-                </button>
               </div>
             </div>
             <div
