@@ -58,7 +58,7 @@ function Subasta() {
           <li className="breadcrumb-item">
             <Link
               className="text-decoration-none link-secondary"
-              to="/products"
+              to="/subasta"
               replace
             >
               Subastas disponibles
