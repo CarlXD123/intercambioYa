@@ -79,6 +79,11 @@ export default function Logueo() {
             <Avatar sx={{ m: 1, bgcolor: "secondary.main" }}>
             <img src={myImage} alt="My Awesome Logo" className="ms-1" style={{ width: "45px", height:"56px" }} />
             </Avatar>
+            <Typography component="h1" variant="h5" fontWeight="bold">
+              Intercambio Ya
+            </Typography>
+
+            <br></br>
             <Typography component="h1" variant="h5">
               Sign in
             </Typography>
