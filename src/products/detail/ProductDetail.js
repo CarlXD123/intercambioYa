@@ -19,16 +19,11 @@ function ProductDetail() {
         <ol className="breadcrumb p-3">
           <li className="breadcrumb-item">
             <Link className="text-decoration-none link-secondary" to="/products">
-              All Products
+              Intercambios disponibles
             </Link>
           </li>
-          <li className="breadcrumb-item">
-            <a className="text-decoration-none link-secondary" href="!#">
-            Laptops
-            </a>
-          </li>
           <li className="breadcrumb-item active" aria-current="page">
-           Asus
+           Laptop Legion
           </li>
         </ol>
       </nav>
