@@ -15,7 +15,7 @@ const categories = [
   "Articulos de Belleza",
 ];
 
-const manufacturers = ["Accesorios", "Tecnologia", "Vestimenta", "Juegos"];
+const manufacturers = ["Accesorios", "Tecnologia", "Vestimenta", "Juegos", "Productos de belleza", "Articulos de cocina"];
 
 function FilterMenuLeft() {
   return (
@@ -43,7 +43,7 @@ function FilterMenuLeft() {
               type="text"
               className="form-control"
               placeholder="Min"
-              defaultValue="100000"
+              defaultValue="100"
             />
             <label htmlFor="floatingInput">Min Price</label>
           </div>
@@ -52,7 +52,7 @@ function FilterMenuLeft() {
               type="text"
               className="form-control"
               placeholder="Max"
-              defaultValue="500000"
+              defaultValue="500"
             />
             <label htmlFor="floatingInput">Max Price</label>
           </div>
@@ -84,12 +84,10 @@ function ProductList() {
               to="/products"
               replace
             >
-              All Products
+              Intercambios disponibles
             </Link>
           </li>
-          <li className="breadcrumb-item active" aria-current="page">
-            Tecnologia
-          </li>
+         
         </ol>
       </nav>
       <div className="h-scroller d-block d-lg-none">
@@ -155,10 +153,15 @@ function ProductList() {
                   aria-label="Default select example"
                   defaultValue=""
                 >
-                  <option value="">All Models</option>
-                  <option value="1">Legion 5 pro</option>
-                  <option value="2">Asus Vivobook</option>
-                  <option value="3">Lenovo Ideapad</option>
+                  <option value="">Todas las marcas</option>
+                  <option value="1">Legion</option>
+                  <option value="2">Asus</option>
+                  <option value="3">Lenovo</option>
+                  <option value="4">Pantene</option>
+                  <option value="5">Chanel</option>
+                  <option value="6">Adidas</option>
+                  <option value="7">Sony</option>
+                  <option value="8">Nintendo</option>
                 </select>
               </div>
               <div className="col-lg-9 col-xl-5 offset-xl-4 d-flex flex-row">
