@@ -81,7 +81,7 @@ function ProductList() {
           <li className="breadcrumb-item">
             <Link
               className="text-decoration-none link-secondary"
-              to="/products"
+              to="/product"
               replace
             >
               Intercambios disponibles
