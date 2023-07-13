@@ -45,7 +45,7 @@ function Header() {
             </button>
             </Link>
             <button type="button" className="btn btn-outline-dark">
-              <FontAwesomeIcon icon={["fas", "shopping-cart"]} className="shop-text"/>
+              <FontAwesomeIcon icon={["fas", "dollar-sign"]} className="shop-text"/>
               <span className="ms-3 badge rounded-pill bg-dark">0</span>
             </button>
             <button type="button" className="btn btn-outline-dark">
@@ -93,7 +93,7 @@ function Header() {
             </button>
             </Link>
             <button type="button" className="btn btn-outline-dark">
-              <FontAwesomeIcon icon={["fas", "shopping-cart"]} className="shop-text"/>
+              <FontAwesomeIcon icon={["fas", "dollar-sign"]} className="shop-text"/>
               <span className="ms-3 badge rounded-pill bg-dark">0</span>
             </button>
             <button type="button" className="btn btn-outline-dark">
