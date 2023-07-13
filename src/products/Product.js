@@ -13,7 +13,7 @@ function Product(props) {
         className="badge bg-dim py-2 text-white position-absolute"
         style={{ top: "0.5rem", right: "0.5rem" }}
       >
-        {props.percentOff}% OFF
+        Seminuevo
       </div>
     );
 
