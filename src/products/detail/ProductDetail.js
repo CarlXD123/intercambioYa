@@ -85,11 +85,11 @@ function ProductDetail() {
           <div className="d-flex flex-column h-100">
             <h2 className="mb-1">Laptop Legion</h2>
            
-
+        
             <div className="row g-3 mb-4">
               <div className="col">
                 <button className="btn btn-outline-dark py-2 w-100">
-                  Intercambiar
+                  Iniciar Contacto con el dueño
                 </button>
               </div>
               
