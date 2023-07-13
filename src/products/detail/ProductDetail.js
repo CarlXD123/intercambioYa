@@ -18,7 +18,7 @@ function ProductDetail() {
       <nav aria-label="breadcrumb" className="bg-custom-light rounded mb-4">
         <ol className="breadcrumb p-3">
           <li className="breadcrumb-item">
-            <Link className="text-decoration-none link-secondary" to="/products">
+            <Link className="text-decoration-none link-secondary" to="/product">
               Intercambios disponibles
             </Link>
           </li>
@@ -84,17 +84,15 @@ function ProductDetail() {
         <div className="col-lg-5">
           <div className="d-flex flex-column h-100">
             <h2 className="mb-1">Laptop Legion</h2>
-            <h4 className="text-muted mb-4">S./ 425</h4>
+           
 
             <div className="row g-3 mb-4">
               <div className="col">
                 <button className="btn btn-outline-dark py-2 w-100">
-                  Add to cart
+                  Intercambiar
                 </button>
               </div>
-              <div className="col">
-                <button className="btn btn-dark py-2 w-100">Buy now</button>
-              </div>
+              
             </div>
 
             <h4 className="mb-0">Details</h4>
