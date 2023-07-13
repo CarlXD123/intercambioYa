@@ -12,7 +12,7 @@ function RelatedProduct(props) {
         className="badge bg-dim py-2 text-white position-absolute"
         style={{ top: "0.5rem", right: "0.5rem" }}
       >
-        {props.percentOff}% OFF
+       2 meses de uso
       </div>
     );
 
