@@ -42,7 +42,7 @@ function RelatedProduct(props) {
           <h5 className="card-title text-center text-dark text-truncate">
             Laptop Lenovo
           </h5>
-          <p className="card-text text-center text-muted">{offPrice}</p>
+          <p className="card-text text-center text-muted">Ver Detalles</p>
         </div>
       </div>
     </Link>
