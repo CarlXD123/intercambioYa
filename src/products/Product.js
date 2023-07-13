@@ -40,7 +40,7 @@ function Product(props) {
           <h5 className="card-title text-center text-dark text-truncate">
             Laptop Legion
           </h5>
-          <p className="card-text text-center text-muted mb-0">{offPrice}</p>
+        
           <div className="d-grid d-block">
             <button className="btn btn-outline-dark mt-3">
               <FontAwesomeIcon icon={["fas", "cart-plus"]} /> Intercambiar
