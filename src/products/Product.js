@@ -43,7 +43,7 @@ function Product(props) {
         
           <div className="d-grid d-block">
             <button className="btn btn-outline-dark mt-3">
-              <FontAwesomeIcon icon={["fas", "cart-plus"]} /> Intercambiar
+              <FontAwesomeIcon icon={["fas", "cart-plus"]} /> Iniciar contacto con el dueño
             </button>
           </div>
         </div>
