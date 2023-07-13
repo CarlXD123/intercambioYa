@@ -48,6 +48,10 @@ function Header() {
               <FontAwesomeIcon icon={["fas", "shopping-cart"]} className="shop-text"/>
               <span className="ms-3 badge rounded-pill bg-dark">0</span>
             </button>
+            <button type="button" className="btn btn-outline-dark">
+              <FontAwesomeIcon icon={["fas", "shopping-cart"]} className="shop-text"/>
+              <span className="ms-3 badge rounded-pill bg-dark">0</span>
+            </button>
             <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item dropdown">
                 <a
@@ -88,6 +92,10 @@ function Header() {
             <span className="ms-3 badge rounded-pill bg-dark">Subastas</span>
             </button>
             </Link>
+            <button type="button" className="btn btn-outline-dark">
+              <FontAwesomeIcon icon={["fas", "shopping-cart"]} className="shop-text"/>
+              <span className="ms-3 badge rounded-pill bg-dark">0</span>
+            </button>
             <button type="button" className="btn btn-outline-dark">
               <FontAwesomeIcon icon={["fas", "shopping-cart"]} className="shop-text"/>
               <span className="ms-3 badge rounded-pill bg-dark">0</span>
